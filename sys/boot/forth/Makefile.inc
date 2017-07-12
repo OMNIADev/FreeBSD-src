@@ -27,3 +27,7 @@ FILESDIR_loader.conf=	/boot/defaults
 # pfSense
 FILES+=	logo-pfSensebw.4th
 FILES+=	brand-pfSense.4th
+
+# IWIP
+FILES+=	logo-IWIPbw.4th
+FILES+=	brand-IWIP.4th
