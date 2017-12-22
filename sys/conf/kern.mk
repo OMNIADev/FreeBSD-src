@@ -8,6 +8,7 @@ CWARNFLAGS?=	-Wall -Wredundant-decls -Wnested-externs -Wstrict-prototypes \
 		-Wundef -Wno-pointer-sign ${FORMAT_EXTENSIONS} \
 		-Wmissing-include-dirs -fdiagnostics-show-option \
 		-Wno-unknown-pragmas -Wno-error-address-of-packed-member \
+		-Wno-constant-conversion \
 		${CWARNEXTRA}
 #
 # The following flags are next up for working on:
